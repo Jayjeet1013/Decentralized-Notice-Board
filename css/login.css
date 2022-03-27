@@ -1,0 +1,77 @@
+
+
+body {
+    background:url('http://cdn.wallpapersafari.com/13/6/Mpsg2b.jpg');
+    margin:0px;
+    
+    font-family: 'Ubuntu', sans-serif;
+      background-size: 100% 110%;
+  }
+
+  .batter{
+
+      text-align: center;
+     padding: 0%;
+  }
+  .he{
+      padding: 58px;
+  }
+#btn-login{
+    background-color: aquamarine;
+    padding: 8px;
+    width: 94px;
+    text-decoration-color: burlywood;
+    border-radius: 8px;
+}
+#btn-logout{
+    background-color: aquamarine;
+    padding: 8px;
+    width: 94px; 
+    border-radius: 8px;
+    text-decoration-color: burlywood;
+}
+
+.buu{
+  padding: 34px;
+  margin: 348px;
+  align-items: center;
+  display: flex;
+  background-color: rgb(159, 177, 28);
+  border-radius: 24px;
+  text-emphasis-color:  rgb(51, 40, 40);
+  text-decoration-color: rgb(30, 6, 248);
+
+}
+
+.footer-l{
+
+  margin-top: 0%;
+  height: 50px;
+  background-color: var(--main-bg-color);
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+
+
+  
+  /*Media Querie*/
+  @media only screen and (min-width : 150px) and (max-width : 530px){
+    .batter{
+        text-align: center;
+        margin: 0%;
+    }
+    
+    .login-form h3 {
+      text-align:center;
+      margin:0;
+    }
+    .sign-up, .no-access {
+      margin:10px 0;
+    }
+    .login-button {
+      margin-bottom:10px;
+    }
+  }
